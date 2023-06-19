@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;1,300;1,400&family=Carter+One&family=Caveat&family=Fira+Sans&family=Indie+Flower&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit&family=Overpass:wght@400;700&family=Passion+One:wght@900&family=Patua+One&family=Poppins:wght@300&family=Rowdies&family=Signika+Negative:wght@700&family=Source+Code+Pro:wght@300&display=swap');*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+--Light-Grey: hsl(217, 12%, 63%);
+--Medium-Grey: hsl(216, 12%, 54%);
+--Dark-Blue: hsl(213, 19%, 18%);
+--Very-Dark-Blue: hsl(216, 12%, 8%);
+--Orange: hsl(25, 97%, 53%);
+}
+.wrapper{
+    margin: 0;
+    /* -webkit-text-size-adjust: none; */
+    /* text-size-adjust: none; */
+    /* max-width: 400px; */
+    background-color: var(--Very-Dark-Blue);
+    position: relative;
+    font-size: 15px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+    /* opacity: 1; */
+
+
+  }
+  .wrapper-1{
+    margin: 0;
+    /* -webkit-text-size-adjust: none; */
+    /* text-size-adjust: none; */
+    position: relative;
+    bottom: 750px;
+    background-color: var(--Very-Dark-Blue);
+    position: relative;
+    font-size: 15px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    opacity: 1;
+    /* z-index: -1; */
+    /* opacity: 1; */
+    /* display: none; */
+    
+  }
+  .slide-1{
+    background-color: var(--Dark-Blue);
+    max-width: 400px;
+    padding: 1.07rem;
+    padding-left: 2rem;
+    height: 400px;
+    border-radius: 1.35rem;
+    box-shadow: 0 1.6rem 1.6rem hsla(0,0%,0%,0.05);
+    text-align: start;
+
+  }
+  .star{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    background-color: hsl(211, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+
+    
+  }
+  .slide-1 h1{
+    position: relative;
+    top: 20px;
+    color: var(--White);
+  }  
+
+  .slide-1 p{
+    position: relative;
+    top: 20px;
+    color: var(--Light-Grey);
+  }
+  .rating{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    position: relative;
+    top: 45px;
+    right: 15px;
+    color: white;
+    /* gap: 30px; */
+    
+
+    
+
+    
+
+  }
+  .rating .one{
+    background-color: hsl(211, 19%, 24%);
+    border-radius: 50%;
+    padding: 15px 22px;
+    align-items: center;
+
+
+  }
+  .rating .two{
+    background-color: hsl(211, 19%, 24%);
+    border-radius: 50%;
+    padding: 15px 22px;
+    align-items: center;
+
+
+  }
+  .rating .three{
+    background-color: hsl(211, 19%, 24%);
+    border-radius: 50%;
+    padding: 15px 22px;
+    align-items: center;
+
+
+  }
+  .rating .four{
+    background-color: hsl(211, 19%, 24%);
+    border-radius: 50%;
+    padding: 15px 22px;
+    align-items: center;
+
+
+  }
+  .rating .five{
+    background-color: hsl(211, 19%, 24%);
+    border-radius: 50%;
+    padding: 15px 22px;
+    align-items: center;
+
+
+  }
+  .slide-1 button{
+    position: relative;
+  
+    left: 16px;
+    top: 70px;
+    width: 300px;
+    height: 40px;
+    border-radius: 1.07rem;
+    background-color:  var(--Orange);
+    border: none;
+    color: var(--White);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+  }
+  .slide-1 button:hover{
+    background-color: var(--White);
+    color: red;
+    cursor: pointer;
+}
+.rating .one:hover{
+    background-color: var(--Orange);
+}
+.rating .two:hover{
+    background-color: var(--Orange);
+}
+.rating .three:hover{
+    background-color: var(--Orange);
+}
+.rating .four:hover{
+    background-color: var(--Orange);
+}
+.rating .five:hover{
+    background-color: var(--Orange);
+}
+
+.slide-2{
+    background-color: var(--Dark-Blue);
+    max-width: 400px;
+    padding: 1.07rem;
+    /* padding-left: 2rem; */
+    height: 400px;
+    border-radius: 1.35rem;
+    box-shadow: 0 1.6rem 1.6rem hsla(0,0%,0%,0.05);
+    text-align: center;
+}
+.slide-2 h4{
+    width: 60%;
+    border-radius: 25px;
+    padding: 8px 12px;
+    background-color: hsl(211, 19%, 24%);
+    margin: 1.5rem auto;
+    color: var(--Orange);
+}
+.slide-2 h1{
+    color: var(--White);
+    position: relative;
+    top: 15px;
+}
+.slide-2 p{
+    position: relative;
+    top: 20px;
+    margin: 0 14px;
+    line-height: 21px;
+    color: var(--Light-Grey);
+
+}
+
+.active{
+   /*  */
+    /* z-index: 2; */
+    opacity: 0;
+    
+  }
+
+
+
+
+  
+
+
